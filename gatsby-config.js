@@ -1,7 +1,8 @@
 module.exports = {
+  pathPrefix: `/lun`,
   siteMetadata: {
-    title: `lum`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `lun`,
+    siteUrl: `https://cyberpun.ga/lun`,
   },
-  plugins: ["gatsby-plugin-theme-ui", "gatsby-plugin-react-helmet"]
+  plugins: ["gatsby-plugin-theme-ui", "gatsby-plugin-react-helmet"],
 };
