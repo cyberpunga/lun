@@ -4,5 +4,5 @@ module.exports = {
     title: `lun`,
     siteUrl: `https://cyberpun.ga/lun`,
   },
-  plugins: ["gatsby-plugin-theme-ui", "gatsby-plugin-react-helmet"],
+  plugins: ["gatsby-plugin-react-helmet"],
 };

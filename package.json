@@ -15,15 +15,10 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "@mdx-js/react": "^1.6.22",
     "gatsby": "^4.17.2",
     "gatsby-plugin-react-helmet": "^5.17.0",
-    "gatsby-plugin-theme-ui": "^0.14.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-helmet": "^6.1.0",
-    "theme-ui": "^0.14.6"
+    "react-helmet": "^6.1.0"
   }
 }
