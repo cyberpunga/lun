@@ -127,7 +127,7 @@ export default function IndexPage() {
       >
         <div style={{ margin: "auto" }}>
           <label
-            for="file"
+            htmlFor="file"
             style={{ border: "1px dashed black", borderRadius: "4px", padding: "8px", cursor: "pointer" }}
           >
             Cambiar imagen
