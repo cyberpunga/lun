@@ -30,7 +30,7 @@ export default function IndexPage() {
   };
 
   const [file, setFile] = React.useState(null);
-  const [fileDataURL, setFileDataURL] = React.useState("/placeholder.jpg");
+  const [fileDataURL, setFileDataURL] = React.useState("/lun/placeholder.jpg");
 
   const onFileChange = (e) => {
     const file = e.target.files[0];
