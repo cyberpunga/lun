@@ -219,7 +219,7 @@ export default function IndexPage() {
         </main>
       </div>
       <div style={{ display: "flex", padding: "2vw 0", justifyContent: "center" }}>
-        <h1 style={{ fontFamily: "monospace" }} onClick={handleDownloadImage}>
+        <h1 style={{ fontFamily: "monospace", cursor: "pointer" }} onClick={handleDownloadImage}>
           💾 Guardar
         </h1>
       </div>
