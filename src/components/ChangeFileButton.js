@@ -10,7 +10,7 @@ export default function ChangeFileButton({ ...props }) {
       alert("Image mime type is not valid");
       return;
     }
-    // document.querySelector("#change-image").style.display = "none";
+    document.querySelector("#change-image").style.display = "none";
     let fileReader;
     let isCancel = false;
     if (file) {
