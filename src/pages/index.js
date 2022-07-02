@@ -142,7 +142,7 @@ export default function IndexPage() {
               }}
             >
               <span contentEditable="true" spellCheck="false" suppressContentEditableWarning={true}>
-                Si estás leyendo esto, significa que sigues con{" "}
+                Si estás leyendo esto, significa que sigues con vida y nos alegra muchísimo
               </span>
               <span>4️⃣</span>
             </p>
@@ -236,7 +236,7 @@ function SaveButton({ element }) {
 
     if (typeof link.download === "string") {
       link.href = data;
-      link.download = "image.jpg";
+      link.download = "cyberpunga-noticias-" + Date.now() + ".jpg";
 
       document.body.appendChild(link);
       link.click();
@@ -250,8 +250,8 @@ function SaveButton({ element }) {
       style={{
         fontFamily: "monospace",
         cursor: "pointer",
-        border: "2px dashed black",
-        color: "black",
+        border: "2px dashed #31006f",
+        color: "#31006f",
         padding: "1vw",
         width: "fit-content",
         margin: "0",
