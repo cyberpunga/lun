@@ -5,10 +5,7 @@ import ChangeFileButton from "./ChangeFileButton";
 export default function Intro() {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <h1 style={{ fontFamily: "monospace" }}>
-        Crea tus propias noticias
-        <br /> y compártelas con tu familia y amistades 🥳
-      </h1>
+      <h1 style={{ fontFamily: "monospace" }}>Crea tus propias noticias para compartir 📰</h1>
       <h2 style={{ fontFamily: "monospace" }}>Puedes empezar por:</h2>
       <ChangeFileButton />
       <h2 style={{ fontFamily: "monospace" }}>

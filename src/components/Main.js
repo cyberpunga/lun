@@ -13,7 +13,7 @@ export default function Main() {
         position: "relative",
         display: "flex",
         flexDirection: "column",
-        height: "100vw",
+        height: "50vw",
       }}
     >
       <ChangeFileButton id="change-image" style={{ margin: "auto" }} />
