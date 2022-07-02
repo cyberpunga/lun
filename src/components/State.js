@@ -1,6 +1,6 @@
 import create from "zustand";
 
 export const useStore = create((set) => ({
-  fileDataURL: null,
+  fileDataURL: "/lun/placeholder.jpg",
   setFileDataURL: (fileDataURL) => set({ fileDataURL }),
 }));
