@@ -12,7 +12,7 @@ export default function IndexPage() {
   return (
     <React.Fragment>
       <Intro />
-      <div id="cover" style={{ margin: "24px 0" }}>
+      <div id="cover" style={{ margin: "24px 0 8px 0" }}>
         <Header />
         <Main />
         <Footer />
